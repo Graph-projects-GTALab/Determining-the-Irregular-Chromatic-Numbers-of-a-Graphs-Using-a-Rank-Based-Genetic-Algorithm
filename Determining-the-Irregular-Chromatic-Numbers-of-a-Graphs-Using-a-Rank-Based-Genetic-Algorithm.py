@@ -20,7 +20,7 @@ S = 3          # فشار انتخاب (Selection pressure)
 P_MAX = 0.3  # حداکثر احتمال جهش
 ALPHA = 100    # وزن تضاد رنگی در تابع شایستگی
 BETA = 100        # وزن تکرار کد رنگی در تابع شایستگی
-MAX_COLORS = N     # بیشینه رنگ‌ها (حد بالا، می‌توان کمتر گرفت)
+MAX_COLORS = 6     # بیشینه رنگ‌ها (حد بالا، می‌توان کمتر گرفت)
 while True:
     try:
         Approximation = int(input("Approximation: "))
